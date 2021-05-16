@@ -1,0 +1,26 @@
+.container-2{
+    width: 95%;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flex-box-container{
+
+    
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.flex-box-container img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+.flex-box-container img:hover{
+    box-shadow: 0px 10px 50px rgb(15, 15, 177);
+}

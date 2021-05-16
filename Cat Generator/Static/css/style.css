@@ -1,0 +1,23 @@
+.container-2{
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    border: 5px solid red;
+    padding-bottom: 10px;
+}
+
+.flex-box-container-2{
+    display: flex;
+    border: 2px solid green;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.flex-box-container-2 img{
+    margin: 10px;
+
+}

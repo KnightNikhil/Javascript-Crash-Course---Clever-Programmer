@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <title>Change button colors</title>
+</head>
+<body>
+    <div class="flex-box-container">
+        <h1 > Change Buttons Color</h1>
+        <div class="flex-box-buttons">
+            <form action="">
+                <select name="color_chosen" id="color_chosen" onchange="change_button_color(this)">
+                    <option value="random">Random</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="reset">Reset</option>    
+                </select>
+            </form>
+        
+            <button class="btn-lg btn-primary" >Blue B</button>
+            <button class="btn-lg btn-danger" >Red B</button>
+            <button class="btn-lg btn-warning">Yellow B</button>
+            <button class="btn-lg btn-success">Green B</button>
+        
+        </div>
+        
+    </div>
+
+    <script src="static/script.js"> </script>
+</body>
+</html>
